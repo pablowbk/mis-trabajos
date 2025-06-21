@@ -1,0 +1,15 @@
+---
+Astro.redirect('/login');
+---
+
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/login" />
+    <script>
+      window.location.href = '/login';
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo a login...</p>
+  </body>
+</html>
